@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+div {
+    text-align: center;
+    padding-top: 20px;
+}
+.border{
+    border: solid red 3px;
+}
+
+.col {
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 9%;
+    border: solid 1px black;
+}
+.Z{
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 9%;
+    border: solid 1px black;
+    height: 40px;
+    font-size: 20px;
+    background-color: black !important;
+    color: white;
+    padding-top: 5px;
+}
+.Z:hover, .q:hover, .none:hover{
+    box-shadow: none !important;
+}
+.q{
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 50px;
+    border: solid 1px black;
+    background-color: black !important;
+    color: white;
+    padding-top: 40px;
+}
+.none{
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 4.1%;
+
+    height: 40px;
+    font-size: 20px;
+
+
+}
+.eight{
+    margin-bottom: 50px;
+}
+
+div div:hover{
+    box-shadow: black 6px 6px 6px 6px;
+}
+
+.col:first-child {
+    margin-left: 0px;
+}
+
+.col:last-child {
+    margin-right: 0px;
+}
+
+.one, .tow, .three, .four, .five, .six, .seven, .eight {
+    padding: 1px;
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+
+.one div:nth-of-type(odd), .three div:nth-of-type(odd), .five div:nth-of-type(odd), .seven div:nth-of-type(odd) {
+    background-color: #999;
+}
+
+.one div:nth-of-type(even), .three div:nth-of-type(even), .five div:nth-of-type(even), .seven div:nth-of-type(even) {
+    background-color: #333;
+}
+
+.tow div:nth-of-type(even), .four div:nth-of-type(even), .six div:nth-of-type(even), .eight div:nth-of-type(even) {
+    background-color: #999;
+}
+
+.tow div:nth-of-type(odd), .four div:nth-of-type(odd), .six div:nth-of-type(odd), .eight div:nth-of-type(odd) {
+    background-color: #333;
+}
+
+.fas {
+    font-size: 3rem;
+    transition: all 0.5s;
+}
+
+.one .fas, .tow .fas {
+    color: #ffffff;
+}
+
+/* .one .fa-chess-rook {
+    display: none;
+} */
+
+/* .one .fa-chess-rook:hover{
+    display: inline-block
+} */
+
+/* .one .fa-chess-rook:hover{
+    display: inline-block;
+} */
+
+div > .A:hover .fas{
+    display: inline-block;
+    color: black;
+    transition: all 0.5s;
+    font-size: 4rem;
+    text-align: center; 
+}
+div > .B:hover .fas{
+    display: inline-block;
+    color: white;
+    transition: all 0.5s;
+    font-size: 4rem;
+    text-align: center; 
+}
+
+/* @media all and (max-width:768px) {
+    div{
+        width: 100% !important;
+        margin: 5px 0px 5px 0px;
+    }
+} */
