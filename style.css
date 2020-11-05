@@ -1,0 +1,44 @@
+/*    font-family: 'DM Serif Display', serif;*/
+body {
+    width: 100%;
+    min-width: 300px;
+    max-width: 900px;
+    margin:auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.row.white{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.row.black{
+    color: black;
+    text-shadow: 2px 2px white;
+}
+.col.one, .col.three, .col.five, .col.seven {
+    background: rgb(170, 50, 50);
+    min-height: 112.5px;
+    display: block;
+    float: left;
+    width: 12.5%;
+}
+.col.two, .col.four, .col.six, .col.eight {
+    background: rgb(219, 219, 219);
+    min-height: 112.5px;
+    display: block;
+    float: left;
+    width: 12.5%;
+}
+.col>i{
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 112.5px;
+}
+.col{
+    align-items: center;
+}
+
