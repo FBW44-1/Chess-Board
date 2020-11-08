@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 5%;
+    background-color: grey;
+  }
+
+
+
+
+.chess-board {
+    margin: auto;
+    width: 640px;
+    height: 720px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr 40px;
+    grid-gap: 0;
+  }
+  
+  .upper-numbers,
+  .lower-numbers {
+    display: flex;
+    background-color: moccasin;
+  }
+  
+  .upper-numbers>div,
+  .lower-numbers>div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-field {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 640px;
+  }
+  
+  .field {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .field:nth-child(-2n+8) {
+    background-color: black;
+  }
+  
+  
+  .field {
+          font-size: 40px;
+
+  }
