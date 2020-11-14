@@ -1,0 +1,80 @@
+
+/* reset css */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+
+body {
+    font-size: 16px;
+	  font-size: 1rem;
+ 
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 640px 640px;;
+  }
+  
+  .chessboard {
+     
+      display: grid;
+    /*
+    grid-template-columns: 20px repeat(6, 1fr) 20px;
+*/
+     grid-auto-flow: row;
+     grid-template-columns: repeat(8, 80px);
+     grid-template-rows: repeat(8, auto);
+  }
+  .chessboard {
+    
+    color: black;
+    font-size: 20px;
+    
+   
+    }
+
+    .color-top {
+      color:white;
+    }
+
+    .fas   {
+        position: relative;
+        text-align: center;
+
+        
+    
+    }
+
+
+    i {
+      margin-left: 30px;
+      font-size: 30px;
+      height: 30px;
+      vertical-align: middle;
+      color: black;
+      
+
+  }
+  
+    .black {
+        
+        width: 80px;
+        height: 80px;
+        background-color: #B5915F;
+        opacity: 0.5;
+        font-size:50px;
+        
+    }
+    .white {
+        
+        width: 80px;
+        height: 80px;
+        background-color: #441A03;
+        opacity: 0.7;
+        font-size: 80px;
+        
+    }
